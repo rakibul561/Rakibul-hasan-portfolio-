@@ -27,10 +27,10 @@ const Navbar = () => {
             Skills
           </Link>
           <Link
-            href="#about"
+            href="/project"
             className="px-4 py-1 rounded text-white bg-transparent hover:bg-green-500 hover:text-white transition-all duration-300"
           >
-            Portfolios
+            Project
           </Link>
           <Link
             href="/contact"

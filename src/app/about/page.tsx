@@ -2,6 +2,8 @@
 "use client";
 import { FC } from "react";
 import Heading from "../Component/Heading/Heading";
+import img1 from '../../../public/my pic.jpg'
+import Image from "next/image";
 
 const Aboutpage: FC = () => {
   return (
@@ -28,11 +30,14 @@ const Aboutpage: FC = () => {
 
         {/* Image Section */}
         <div className="flex justify-center">
-          <img
+            <div className="w-[400px]">
+        <Image placeholder="blur" src={img1} alt="profile image" />
+      </div>
+          {/* <img
             className="w-full h-auto max-h-[350px] lg:mr-28 object-cover bg-white rounded-lg shadow-lg"
-            src="https://i.ibb.co.com/yV5KZfW/profile.jpg"
+            src= {img1}
             alt="Rakibul Hasan"
-          />
+          /> */}
         </div>
       </div>
     </div>
