@@ -1,4 +1,5 @@
 import Aboutpage from "./about/page";
+import Projectpage from "./project/page";
 
 import MarqueeDemo from "./skills/page";
 
@@ -13,6 +14,7 @@ export default function Home() {
       
      
      <MarqueeDemo/>
+     <Projectpage/>
      </div>
 
     </div>
