@@ -66,7 +66,7 @@ const Projectpage = () => {
                 </div>
               </div>
             </div>
-
+        {/*desgin korte hbe r o  */}
             {/* দ্বিতীয় প্রজেক্ট */}
             <div className="rounded-md shadow-md dark:bg-gray-50 dark:text-gray-800">
               {/* <img src="https://i.ibb.co.com/jZH7hkL/quick.png" alt="" className="" /> */}
