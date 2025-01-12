@@ -55,19 +55,19 @@ const reviews = [
       name: "MongoDB",
       category: "Backend",
       body: "MongoDB is a NoSQL database that provides high performance, high availability, and easy scalability, ideal for handling large volumes of data.",
-      img: "https://avatar.vercel.sh/mongodb",
+      img: "https://i.ibb.co.com/LzhYChM/mongodb.jpg",
     },
     {
       name: "TypeScript",
       category: "Other",
       body: "TypeScript is a superset of JavaScript that adds static types, making code more predictable and easier to maintain.",
-      img: "https://avatar.vercel.sh/typescript",
+      img: "https://i.ibb.co.com/t2QhmT4/type.png",
     },
     {
       name: "Next.js",
       category: "Other",
       body: "Next.js is a React framework that enables server-side rendering and static site generation for faster and optimized web applications.",
-      img: "https://avatar.vercel.sh/nextjs",
+      img: "https://i.ibb.co.com/9WJ94MV/next.png",
     },
     {
       name: "Firebase",
