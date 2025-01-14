@@ -5,6 +5,8 @@ import { IoIosLink } from "react-icons/io";
 import { IoBookOutline } from "react-icons/io5";
 import Heading from "../Component/Heading/Heading";
 import img1 from "../../../public/quick.png";
+import img2 from '../../../public/hotel booking.png'
+import img3 from '../../../public/tour guide.png'
 import Image from "next/image";
 
 const Projectpage = () => {
@@ -15,11 +17,15 @@ const Projectpage = () => {
           <Heading title="Project"></Heading>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-6">
             <div className="rounded-md shadow-md dark:bg-gray-50 dark:text-gray-800">
-              <img
+              {/* <img
                 src="https://i.ibb.co.com/3p4gDdw/Screenshot-2024-09-19-210033.png"
                 alt=""
                 className="object-cover object-center w-full h-72 dark:bg-gray-500"
-              />
+              /> */}
+               <div className="object-cover object-center w-full   dark:bg-gray-500">
+                <Image placeholder="blur" src={img3} alt="profile image" />
+              </div>
+
               <div className="p-3">
                 <div className="flex items-center justify-between">
                   <h2 className="text-2xl">Tour Guide Client</h2>
@@ -36,9 +42,7 @@ const Projectpage = () => {
                   </div>
                 </div>
                 <p className="text-sm mt-4">
-                  A full MERN stack website built for the "Tour Guide ". This
-                  project is designed for tourism management and travel guiding.
-                  It has three main roles: User, Agent, and Admin.
+                Tour Guide is a web-based application designed to provide travelers with guides, travel plans, and travel-related information. It helps travelers find accurate information about travel destinations and enhances their travel experience. Problem Solved: This platform assists travelers in easily obtaining information about various travel destinations and aids in their travel planning, thereby saving time and effort during trips. 
                 </p>
                 <h2 className="text-xl font-bold mt-4">Technology Used:</h2>
                 <div className="flex flex-wrap gap-2 text-white mt-4">
@@ -66,11 +70,11 @@ const Projectpage = () => {
                 </div>
               </div>
             </div>
-       
+
             {/* দ্বিতীয় প্রজেক্ট */}
             <div className="rounded-md shadow-md dark:bg-gray-50 dark:text-gray-800">
               {/* <img src="https://i.ibb.co.com/jZH7hkL/quick.png" alt="" className="" /> */}
-              <div className="object-cover object-center w-full h-72  dark:bg-gray-500">
+              <div className="object-cover object-center w-full   dark:bg-gray-500">
                 <Image placeholder="blur" src={img1} alt="profile image" />
               </div>
 
@@ -92,11 +96,7 @@ const Projectpage = () => {
                   </div>
                 </div>
                 <p className="text-sm mt-4">
-                  Quick Buzz is a modern e-commerce platform designed to provide
-                  users with a seamless and reliable online shopping experience,
-                  similar to Daraz. Through this website, users can browse
-                  thousands of products, select their desired items, and
-                  complete payments effortlessly.
+                Quick Buzz is a cutting-edge e-commerce platform designed to deliver a seamless, reliable, and user-friendly online shopping experience. Inspired by platforms like Daraz, it allows users to effortlessly browse through a vast collection of products across various categories. Users can explore detailed product descriptions, compare options, and make informed decisions.The platform streamlines the shopping process by offering a smooth interface for selecting desired items, 
                 </p>
                 <h2 className="text-xl font-bold mt-4">Technology Used:</h2>
                 <div className="flex flex-wrap gap-2 text-white mt-4">
@@ -125,33 +125,37 @@ const Projectpage = () => {
               </div>
             </div>
             <div className="rounded-md shadow-md dark:bg-gray-50 dark:text-gray-800">
-              <img
+              {/* <img
                 src="https://i.ibb.co.com/1qgPBpD/Screenshot-2024-09-19-205547.png"
                 alt=""
                 className="object-cover object-center w-full h-72 dark:bg-gray-500"
-              />
+              /> */}
+              <div className="object-cover object-center w-full   dark:bg-gray-500">
+                <Image placeholder="blur" src={img2} alt="profile image" />
+              </div>  
               <div className="p-3">
                 <div className="flex items-center justify-between">
-                  <h2 className="text-2xl">Art Store</h2>
+                  <h2 className="text-2xl">Hotel Booking</h2>
                   <div className="flex items-center space-x-3 text-2xl">
-                    <a href="https://github.com/rakibul561/Art-Store-Client">
+                    <a href="https://github.com/rakibul561/Hotel-Booking">
                       <IoBookOutline />
                     </a>
-                    <a href="https://art-store-client.web.app/">
+                    <a href="https://obtainable-name.surge.sh/">
                       <IoIosLink />
                     </a>
-                    <a href="https://github.com/rakibul561/Art-Store-Server">
+                    <a href="https://github.com/rakibul561/Hotel-Booking-Server">
                       <FaGithub />
                     </a>
                   </div>
                 </div>
                 <p className="text-sm mt-4">
-                  Art Store is a full MERN stack-based e-commerce website
-                  designed for selling and showcasing artwork. Users can browse
-                  through various art collections, purchase their favorite
-                  pieces, and track their orders. Admins can manage the
-                  inventory, update listings, and handle customer orders
-                  efficiently.
+                   Hotel Booking is a web-based application designed to
+                  simplify the process of finding and booking hotels online. It
+                  addresses the common problem of spending excessive time and
+                  effort in searching for suitable accommodations. Problem
+                  Solved: The platform offers users a streamlined and efficient
+                  way to browse, compare, and book hotels, enhancing the overall
+                  travel planning experience.
                 </p>
                 <h2 className="text-xl font-bold mt-4">Technology Used:</h2>
                 <div className="flex flex-wrap gap-2 text-white mt-4">

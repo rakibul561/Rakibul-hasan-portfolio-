@@ -1,55 +1,86 @@
+/* eslint-disable @next/next/no-img-element */
+'use client';
 import Link from 'next/link';
-import React from 'react';
+import React, { useState } from 'react';
 
 const Navbar = () => {
-    return (
-        <div>
-             
-             <div className="min-w-7xl border-b-green-600 border border-r-0 border-l-0 border-t-0 text-2xl">
-      <header className="flex justify-between items-center px-8 py-4 ">
-        <div className="text-3xl w-[50px] h-[40] font-bold text-green-500">
-         
-          <img src="https://i.ibb.co.com/wW022Kc/Screenshot-2024-12-19-073321.png" 
-          alt="" />
+  const [isOpen, setIsOpen] = useState(false);
 
-        </div>
-        <nav className="space-x-4">
+  return (
+    <div className="border-b-2 border-green-600">
+      <header className="flex flex-col items-start px-4 py-4 md:flex-row md:justify-between md:items-center md:px-8">
+        {/* Logo Section */}
+        <Link
+         href="/"
+        className="flex items-center justify-between w-full md:w-auto">
+          
+          <img
+        
+            src="https://i.ibb.co.com/wW022Kc/Screenshot-2024-12-19-073321.png"
+            alt="Logo"
+            className="w-12 h-auto"
+          />
+          <button
+            onClick={() => setIsOpen(!isOpen)}
+            className="md:hidden text-green-500 focus:outline-none"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              strokeWidth={2}
+              stroke="currentColor"
+              className="w-6 h-6"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M3.75 7.5h16.5M3.75 12h16.5M3.75 16.5h16.5"
+              />
+            </svg>
+          </button>
+        </Link>
+
+        {/* Navigation Links */}
+        <nav
+          className={`${
+            isOpen ? "flex" : "hidden"
+          } flex-col w-full items-center space-y-2 mt-4 md:mt-0 md:flex md:flex-row md:items-center md:w-auto md:space-y-0 md:space-x-4`}
+        >
           <Link
             href="/about"
-            className="px-4 py-1 rounded text-white bg-transparent hover:bg-green-500 hover:text-white transition-all duration-300"
+            className="text-sm md:text-base px-3 py-1 rounded text-white bg-transparent hover:bg-green-500 transition-all duration-300"
           >
             About
           </Link>
           <Link
             href="/skills"
-            className="px-4 py-1 rounded text-white bg-transparent hover:bg-green-500 hover:text-white transition-all duration-300"
+            className="text-sm md:text-base px-3 py-1 rounded text-white bg-transparent hover:bg-green-500 transition-all duration-300"
           >
             Skills
           </Link>
           <Link
             href="/project"
-            className="px-4 py-1 rounded text-white bg-transparent hover:bg-green-500 hover:text-white transition-all duration-300"
+            className="text-sm md:text-base px-3 py-1 rounded text-white bg-transparent hover:bg-green-500 transition-all duration-300"
           >
             Project
           </Link>
           <Link
             href="/contact"
-            className="px-4 py-1 rounded text-white bg-transparent hover:bg-green-500 hover:text-white transition-all duration-300"
+            className="text-sm md:text-base px-3 py-1 rounded text-white bg-transparent hover:bg-green-500 transition-all duration-300"
           >
-             Contact
+            Contact
           </Link>
           <Link
             href="/resume"
-            className="px-4 py-1 rounded text-white bg-transparent hover:bg-green-500 hover:text-white transition-all duration-300"
+            className="text-sm md:text-base px-3 py-1 rounded text-white bg-transparent hover:bg-green-500 transition-all duration-300"
           >
-             Resume
+            Resume
           </Link>
-
         </nav>
       </header>
     </div>
-        </div>
-    );
+  );
 };
 
 export default Navbar;
