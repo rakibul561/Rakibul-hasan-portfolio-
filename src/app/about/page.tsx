@@ -4,6 +4,8 @@ import { FC } from "react";
 import Heading from "../Component/Heading/Heading";
 import img1 from '../../../public/my pic.jpg'
 import Image from "next/image";
+import { BorderBeam } from "@/components/ui/border-beam";
+
 
 const Aboutpage: FC = () => {
   return (
@@ -29,9 +31,13 @@ const Aboutpage: FC = () => {
         </div>
 
         {/* Image Section */}
-        <div className="flex justify-center">
+        <div className="flex justify-center p-2 relative ">
+          <BorderBeam/>
+         
+          
             <div className="w-[400px]">
         <Image placeholder="blur" src={img1} alt="profile image" />
+        
       </div>
           {/* <img
             className="w-full h-auto max-h-[350px] lg:mr-28 object-cover bg-white rounded-lg shadow-lg"

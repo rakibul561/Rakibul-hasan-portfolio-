@@ -1,5 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 'use client';
+import { BorderBeam } from '@/components/ui/border-beam';
 import Link from 'next/link';
 import React, { useState } from 'react';
 
@@ -7,7 +8,8 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="border-b-2 border-green-600">
+    <div className="border-b-2 border-green-600 rounded-full mt-8  relative">
+       <BorderBeam/>
       <header className="flex flex-col items-start px-4 py-4 md:flex-row md:justify-between md:items-center md:px-8">
         {/* Logo Section */}
         <Link

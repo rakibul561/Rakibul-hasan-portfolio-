@@ -8,15 +8,22 @@ import img1 from "../../../public/quick.png";
 import img2 from '../../../public/hotel booking.png'
 import img3 from '../../../public/tour guide.png'
 import Image from "next/image";
+import { BorderBeam } from "@/components/ui/border-beam";
+
+
 
 const Projectpage = () => {
   return (
     <div className="">
       <section className="bg-base-300">
-        <div className="container px-6 py-10 mx-auto">
+        <div className="container py-10 mx-auto">
           <Heading title="Project"></Heading>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-6">
-            <div className="rounded-md shadow-md dark:bg-gray-50 dark:text-gray-800">
+          <div className="grid  grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-6">
+    
+        
+          
+            <div className=" relative  rounded-xl shadow-md dark:bg-gray-50 dark:text-gray-800">
+             <BorderBeam/>
               {/* <img
                 src="https://i.ibb.co.com/3p4gDdw/Screenshot-2024-09-19-210033.png"
                 alt=""
@@ -72,7 +79,9 @@ const Projectpage = () => {
             </div>
 
             {/* দ্বিতীয় প্রজেক্ট */}
-            <div className="rounded-md shadow-md dark:bg-gray-50 dark:text-gray-800">
+            <div className="rounded-md relative shadow-md dark:bg-gray-50 dark:text-gray-800">
+            <BorderBeam/>
+            
               {/* <img src="https://i.ibb.co.com/jZH7hkL/quick.png" alt="" className="" /> */}
               <div className="object-cover object-center w-full   dark:bg-gray-500">
                 <Image placeholder="blur" src={img1} alt="profile image" />
@@ -124,7 +133,11 @@ const Projectpage = () => {
                 </div>
               </div>
             </div>
-            <div className="rounded-md shadow-md dark:bg-gray-50 dark:text-gray-800">
+            <div className="rounded-md relative shadow-md dark:bg-gray-50 dark:text-gray-800">
+            <BorderBeam/>
+            <BorderBeam/>
+            <BorderBeam/>
+            <BorderBeam/>
               {/* <img
                 src="https://i.ibb.co.com/1qgPBpD/Screenshot-2024-09-19-205547.png"
                 alt=""
