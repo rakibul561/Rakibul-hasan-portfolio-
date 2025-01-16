@@ -31,7 +31,7 @@ export default function RootLayout({
       >
         <div className="bg-[#111827] text-white">
           <Navbar></Navbar>
-          <Banner></Banner>
+          {/* <Banner></Banner> */}
           {children}
         </div>
       </body>

@@ -9,7 +9,7 @@ import { BorderBeam } from "@/components/ui/border-beam";
 
 const Aboutpage: FC = () => {
   return (
-    <div className=" md:px-2 lg:mt-20  py-8 ">
+    <div id="" className=" md:px-2 lg:mt-20  py-8 ">
       <Heading title="About Me" />
       <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between m-2 space-y-8 lg:space-y-0 lg:space-x-8">
         {/* Text Section */}
@@ -21,12 +21,12 @@ const Aboutpage: FC = () => {
             I have been involved in web development for several days and am still learning. I have also done several projects and am continuing to work on more. My dream is to become a Fullstack Developer. Inshallah, that dream will be fulfilled very soon. My web development journey started in 2023, and it continues with Programming Hero by my side. Through dedication and hard work, I have become a Junior Web Developer.
           </p>
           <div className="flex flex-wrap gap-4">
-            <button className="bg-green-500 hover:bg-green-600 text-white px-6 py-2 rounded-md">
+            <a href="https://drive.google.com/file/d/1UznF1Qj-HlvLo1OyssfkCd4VsAyv7FqY/view" className="bg-green-500 hover:bg-green-600 text-white px-6 py-2 rounded-md">
               Get Resume
-            </button>
-            <button className="bg-gray-800 border border-green-500 hover:bg-gray-700 text-white px-6 py-2 rounded-md">
-              About Me
-            </button>
+            </a>
+            <a href="/skills" className="bg-gray-800 border border-green-500 hover:bg-gray-700 text-white px-6 py-2 rounded-md">
+              My Skills
+            </a>
           </div>
         </div>
 

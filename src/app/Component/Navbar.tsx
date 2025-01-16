@@ -49,36 +49,36 @@ const Navbar = () => {
             isOpen ? "flex" : "hidden"
           } flex-col w-full items-center space-y-2 mt-4 md:mt-0 md:flex md:flex-row md:items-center md:w-auto md:space-y-0 md:space-x-4`}
         >
-          <Link
+          <a
             href="/about"
             className="text-sm md:text-base px-3 py-1 rounded text-white bg-transparent hover:bg-green-500 transition-all duration-300"
           >
             About
-          </Link>
-          <Link
+          </a>
+          <a
             href="/skills"
             className="text-sm md:text-base px-3 py-1 rounded text-white bg-transparent hover:bg-green-500 transition-all duration-300"
           >
             Skills
-          </Link>
-          <Link
+          </a>
+          <a
             href="/project"
             className="text-sm md:text-base px-3 py-1 rounded text-white bg-transparent hover:bg-green-500 transition-all duration-300"
           >
             Project
-          </Link>
-          <Link
+          </a>
+          <a
             href="/contact"
             className="text-sm md:text-base px-3 py-1 rounded text-white bg-transparent hover:bg-green-500 transition-all duration-300"
           >
             Contact
-          </Link>
-          <Link
+          </a>
+          <a
             href="/resume"
             className="text-sm md:text-base px-3 py-1 rounded text-white bg-transparent hover:bg-green-500 transition-all duration-300"
           >
             Resume
-          </Link>
+          </a>
         </nav>
       </header>
     </div>
