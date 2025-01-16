@@ -8,16 +8,15 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="border-b-2 border-green-600 rounded-full mt-8  relative">
-       <BorderBeam/>
-      <header className="flex flex-col items-start px-4 py-4 md:flex-row md:justify-between md:items-center md:px-8">
+    <div className="border-b-2 border-green-600 rounded-full mt-0 fixed top-0 left-0 w-full bg-gray-800 z-50">
+      <BorderBeam />
+      <header className="flex flex-col items-start   max-w-7xl mx-auto py-4 md:flex-row md:justify-between md:items-center md:px-8">
         {/* Logo Section */}
         <Link
-         href="/"
-        className="flex items-center justify-between w-full md:w-auto">
-          
+          href="/"
+          className="flex items-center justify-between w-full md:w-auto"
+        >
           <img
-        
             src="https://i.ibb.co.com/wW022Kc/Screenshot-2024-12-19-073321.png"
             alt="Logo"
             className="w-12 h-auto"
@@ -46,7 +45,7 @@ const Navbar = () => {
         {/* Navigation Links */}
         <nav
           className={`${
-            isOpen ? "flex" : "hidden"
+            isOpen ? 'flex' : 'hidden'
           } flex-col w-full items-center space-y-2 mt-4 md:mt-0 md:flex md:flex-row md:items-center md:w-auto md:space-y-0 md:space-x-4`}
         >
           <a

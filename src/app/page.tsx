@@ -1,3 +1,4 @@
+import Footer from "@/component/Fotter/Fotter";
 import Aboutpage from "./about/page";
 import Banner from "./Component/Banner";
 import Contact from "./contact/page";
@@ -19,6 +20,7 @@ export default function Home() {
      <MarqueeDemo/>
      <Projectpage/>
      <Contact/>
+     <Footer/>
      </div>
 
     </div>

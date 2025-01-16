@@ -4,7 +4,7 @@ import Heading from "../Component/Heading/Heading";
 const Contact: React.FC = () => {
   return (
     <div>
-        <Heading title='Contact'></Heading>
+        <Heading title='Hire me'></Heading>
       <div className="bg-dark text-white  px-5  flex flex-col lg:flex-row justify-between">
         {/* Contact Info Section */}
         <div className="lg:w-1/2">

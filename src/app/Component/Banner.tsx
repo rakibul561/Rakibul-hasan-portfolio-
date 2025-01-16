@@ -17,8 +17,8 @@ const Banner = () => {
       <main className="flex flex-col-reverse md:flex-row items-center gap-8 md:gap-16 mt-16  p-2 py-8">
         {/* Text Section */}
         <div className="flex-1 text-center md:text-left space-y-4">
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold">Hello! I am</h1>
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-extrabold text-green-500">
+          <h1 className="text-2xl md:text-2xl lg:text-2xl font-bold text-green-500">Hello! I am</h1>
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-extrabold ">
             Rakibul Hasan
           </h2>
           <p className="text-lg md:text-xl lg:text-2xl text-green-400">

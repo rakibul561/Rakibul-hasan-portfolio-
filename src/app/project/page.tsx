@@ -17,7 +17,7 @@ const Projectpage = () => {
     <div className="">
       <section className="bg-base-300">
         <div className="container py-10 mx-auto">
-          <Heading title="Project"></Heading>
+          <Heading title="My Project"></Heading>
           <div className="grid  grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-6">
     
         
