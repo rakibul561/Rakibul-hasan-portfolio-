@@ -23,7 +23,7 @@ const Projectpage = () => {
         
           
             <div className=" relative  rounded-xl shadow-md dark:bg-gray-50 dark:text-gray-800">
-             <BorderBeam/>
+             {/* <BorderBeam/> */}
               {/* <img
                 src="https://i.ibb.co.com/3p4gDdw/Screenshot-2024-09-19-210033.png"
                 alt=""
@@ -80,7 +80,7 @@ const Projectpage = () => {
 
             {/* দ্বিতীয় প্রজেক্ট */}
             <div className="rounded-md relative shadow-md dark:bg-gray-50 dark:text-gray-800">
-            <BorderBeam/>
+            {/* <BorderBeam/> */}
             
               {/* <img src="https://i.ibb.co.com/jZH7hkL/quick.png" alt="" className="" /> */}
               <div className="object-cover object-center w-full   dark:bg-gray-500">
@@ -134,10 +134,8 @@ const Projectpage = () => {
               </div>
             </div>
             <div className="rounded-md relative shadow-md dark:bg-gray-50 dark:text-gray-800">
-            <BorderBeam/>
-            <BorderBeam/>
-            <BorderBeam/>
-            <BorderBeam/>
+            {/* <BorderBeam/> */}
+           
               {/* <img
                 src="https://i.ibb.co.com/1qgPBpD/Screenshot-2024-09-19-205547.png"
                 alt=""

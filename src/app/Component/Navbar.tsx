@@ -8,9 +8,13 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="border-b-2 border-green-600 rounded-full mt-0 fixed top-0 left-0 w-full bg-gray-800 z-50">
-      <BorderBeam />
-      <header className="flex flex-col items-start   max-w-7xl mx-auto py-4 md:flex-row md:justify-between md:items-center md:px-8">
+    <div className="relative z-50 bg-gray-800">
+      {/* BorderBeam */}
+      <div className="absolute inset-0 -z-10 hidden md:block">
+        <BorderBeam />
+      </div>
+
+      <header className="flex flex-col items-start max-w-7xl mx-auto py-4 md:flex-row md:justify-between md:items-center md:px-8">
         {/* Logo Section */}
         <Link
           href="/"

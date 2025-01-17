@@ -32,7 +32,7 @@ const Aboutpage: FC = () => {
 
         {/* Image Section */}
         <div className="flex justify-center p-2 relative ">
-          <BorderBeam/>
+          {/* <BorderBeam/> */}
          
           
             <div className="w-[400px]">
