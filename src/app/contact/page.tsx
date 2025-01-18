@@ -3,7 +3,7 @@ import Heading from "../Component/Heading/Heading";
 
 const Contact: React.FC = () => {
   return (
-    <div>
+    <div className="mt-24">
         <Heading title='Hire me'></Heading>
       <div className="bg-dark text-white  px-5  flex flex-col lg:flex-row justify-between">
         {/* Contact Info Section */}

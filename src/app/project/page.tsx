@@ -8,7 +8,6 @@ import img1 from "../../../public/quick.png";
 import img2 from '../../../public/hotel booking.png'
 import img3 from '../../../public/tour guide.png'
 import Image from "next/image";
-import { BorderBeam } from "@/components/ui/border-beam";
 
 
 
@@ -16,9 +15,9 @@ const Projectpage = () => {
   return (
     <div className="">
       <section className="bg-base-300">
-        <div className="container py-10 mx-auto">
-          <Heading title="My Project"></Heading>
-          <div className="grid  grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-6">
+        <div className="container py-10 mx-auto mt-20">
+          <Heading title="My best  Project"></Heading>
+          <div className="grid  grid-cols-1  md:grid-cols-2 lg:grid-cols-3 gap-6 mt-6">
     
         
           
@@ -35,7 +34,9 @@ const Projectpage = () => {
 
               <div className="p-3">
                 <div className="flex items-center justify-between">
-                  <h2 className="text-2xl">Tour Guide Client</h2>
+                  <h2 className="text-2xl">Tour Guide Client 
+                  <span className="text-sm">(f-Stack Project)</span>
+                  </h2>
                   <div className="flex items-center space-x-3 text-2xl">
                     <a href="https://github.com/rakibul561/Tour-Guide-Client-">
                       <IoBookOutline />
@@ -146,7 +147,10 @@ const Projectpage = () => {
               </div>  
               <div className="p-3">
                 <div className="flex items-center justify-between">
-                  <h2 className="text-2xl">Hotel Booking</h2>
+                  <h2 className="text-2xl">Hotel Booking
+
+                  <span className="text-sm">(MERN Stack p)</span>
+                  </h2>
                   <div className="flex items-center space-x-3 text-2xl">
                     <a href="https://github.com/rakibul561/Hotel-Booking">
                       <IoBookOutline />
